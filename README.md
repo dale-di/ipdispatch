@@ -37,3 +37,4 @@ balance=h|r|A。h：一致性哈希调度；r:轮训；A：随机数调度。<br
 \#    host：指定需要操作的域名<br>
 \#    object：设置需要操作的对象，有两种值：node或server。<br>
 \#    value：需要设置的值。对于节点可以设置：bw和status；对于服务器可以设置weight和status。value参数可以有多个。<br>
+\# 响应结果：返回状态码为200代表成功，其他为设置失败
